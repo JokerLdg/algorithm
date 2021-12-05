@@ -22,7 +22,8 @@ int main() {
     for (int i=0; i < N; i++) {
         cin >> coins[i];
     }
-
+    
+    // 문제에는 오름차순으로 입력받는다고 하였으나, 내림차순 정렬을 해줘야함.
     sort(coins, coins+N, desc);
 
     for (int i=0; i<N; i++) {
