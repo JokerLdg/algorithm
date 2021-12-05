@@ -25,7 +25,8 @@ int main() {
     
     // 문제에는 오름차순으로 입력받는다고 하였으나, 내림차순 정렬을 해줘야함.
     sort(coins, coins+N, desc);
-
+    
+    // 내림차순 정렬 순서대로 값 구하기
     for (int i=0; i<N; i++) {
         count += K / coins[i];
         K %= coins[i];
