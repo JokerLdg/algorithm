@@ -4,10 +4,6 @@ using namespace std;
 
 #define endl '\n'
 
-bool desc(int n1, int n2) {
-    return n1 > n2;
-}
-
 int main() {
     string N;
     // cin, cout 최적화
@@ -18,7 +14,7 @@ int main() {
     cin >> N;
 
     // 내림차순 정렬
-    sort(N.begin(), N.end(), desc);
+    sort(N.begin(), N.end(), greater<>());
 
     // 0이 아닌경우 30의 배수가 될 수 없기 때문에 -1 출력
     if(N[N.length()-1] != '0') {
