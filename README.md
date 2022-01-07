@@ -15,3 +15,5 @@
 
 ## :blue_book: Programmers (프로그래머스)
 ## :blue_book: Leetcode (리트코드)
+
+##### 1789. 수들의 합 문제
