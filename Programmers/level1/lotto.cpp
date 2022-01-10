@@ -62,7 +62,7 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    vector<int> lottos = {44, 1, 0, 0, 31, 25};
+    vector<int> lottos = {44, 1, 0, 0, 31, 24};
     vector<int> win_nums = {31, 10, 45, 1, 6, 19};
 
     vector<int> answer = solution(lottos, win_nums);
