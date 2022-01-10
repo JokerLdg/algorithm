@@ -17,6 +17,7 @@
 ## :blue_book: Programmers (프로그래머스)
 ### level 1
 ##### 숫자 문자열과 영단어 문제
+##### 로또의 최고 순위와 최저 순위 문제
 
 ## :blue_book: Leetcode (리트코드)
 
